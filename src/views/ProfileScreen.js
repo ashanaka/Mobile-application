@@ -39,17 +39,17 @@ const ProfileScreen = () => {
       </View>
       <View style={styles.userInfoSection}>
         <View style={styles.row}>
-          <Icon name="map-marker-radius" color="#777777" size={20} />
+          <Icon name="map-marker-radius" color="#006400" size={20} />
           <Text style={{ color: "#777777", marginLeft: 20 }}>
             Nugegoda, Colombo 05
           </Text>
         </View>
         <View style={styles.row}>
-          <Icon name="phone" color="#777777" size={20} />
+          <Icon name="phone" color="#006400" size={20} />
           <Text style={{ color: "#777777", marginLeft: 20 }}>+94-712345792</Text>
         </View>
         <View style={styles.row}>
-          <Icon name="email" color="#777777" size={20} />
+          <Icon name="email" color="#006400" size={20} />
           <Text style={{ color: "#777777", marginLeft: 20 }}>
             john_doe@email.com
           </Text>
