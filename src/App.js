@@ -38,7 +38,7 @@ const App = () => {
   return (
     <NavigationContainer>
       <RootStack.Navigator headerMode={'none'}>
-        <RootStack.Screen name={'AuthScreen'} component={AuthStackScreen} />
+        {/*<RootStack.Screen name={'AuthScreen'} component={AuthStackScreen} />*/}
         <RootStack.Screen name={'MainStackNavigator'} component={MainStackNavigator} />
       </RootStack.Navigator>
       {/*<RootStackScreen />*/}
